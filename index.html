@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEB Tech</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Oswald:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>My Tasks!</h1>
+            <p>All tasks combined into one layout</p>
+        </div>
+        <div class="navbar">
+            <a href="#task1">Task 1: Me</a>
+            <a href="#task2">Task 2: Layout</a>
+            <a href="#task3">Task 3: Tribute Page</a>
+            <a href="#task4">Task 4: Table & Form</a>
+        </div>
+        <div class="main-wrapper clearfix">
+            <div class="sidebar">
+                <h3>Quick Menu</h3>
+                <ul>
+                    <li><a href="#task1">Task 1</a></li>
+                    <li><a href="#task2">Task 2</a></li>
+                    <li><a href="#task3">Task 3</a></li>
+                    <li><a href="#task4">Task 4</a></li>
+                </ul>
+            </div>
+          
+            <div class="content">
+                <div id="task1" class="task-section">
+                    <h2>Task 1: Introduction to HTML & CSS</h2>
+                    <p>This is my personal webpage section. <em><div class="profile-card" id="main-profile">
+<img src="pfp.jpg" alt="my pfp!" class="profile-img">
+<h1 class="profile-name">Sara Yermaganbetova</h1>
+<p class="profile-group"><strong>Group:</strong> SE-2525</p>
+<p class="profile-desc">Hi! I'm Sara or Sarah and welcome to my webpage! I love music, videogames, singing and playing guitar! It's nice to meet you!</p>
+</div>
+
+<main class="content-container">
+    
+<h2>About me!</h2>
+<p>I was born and raised in Astana, so it's very convenient for me to study at AITU with my family around. I'm 18 years old an my birthday is February 22nd.</p>
+<p>It's not my first time working with html/css since I already did that in high school. It was really nice to learn how to make this all work and add various contents on it (thanks to my teacher). I'm really glad to be doing this again since it allows me to organize my page by making it perfect for myself.</p>
+
+<h2>My Goals!</h2>
+<ol class="goal-list">
+<li>Study well in university</li>
+<li>Learn more programming stuff</li>
+<li>Be more brave</li>
+</ol>
+
+<h2>MyHobbies!</h2>
+<ul class="hobby-list">
+<li>Playing guitar</li>
+<li>Playing video games</li>
+<li>Watching various shows</li>
+<li>Art</li>
+</ul>
+
+<h2>My links!</h2>
+<p>If you're interested, check out my art! <a href="https://t.me/+THlTnYrt88c5MGVi" target="_blank" class="custom-link">Telegram Channel!</a></p>
+<p>Also, here is my github page! <a href="https://github.com/kwnkatomi?tab=overview&from=2025-12-01&to=2025-12-31" target="_blank" class="custom-link">GitHub</a></p>
+</em></p>
+</div>
+
+                <div id="task2" class="task-section">
+                    <h2>Task 2: Simple Webpage Layout</h2>
+                    <p>The entire structure of this page (the header, the navigation bar, the sidebar on the left, this content area on the right, and the footer at the bottom) is the result of Task 2!</p>
+                </div>
+                <div id="task3" class="task-section">
+                    <h2>Task 3: Tribute Page</h2>
+                    
+                    <div class="tribute-container">
+                        <h1 class="tribute-title">Gerard Way</h1>
+                        <h3 class="tribute-subtitle">1977 – Present. Musician, Singer & Comic Book Writer/Artist</h3>
+                        <img src="gee.avif" alt="Gerard Way" class="portrait">
+                      <h2 class="tribute-heading">About Gerard</h2>
+                        <p>Gerard Arthur Way is an American singer, songwriter, and comic book writer who left a massive mark on both the alternative rock scene and the comic book industry. He is best known as the lead vocalist of <strong>My Chemical Romance</strong> and the creator of <em>The Umbrella Academy</em>.</p>
+                      <h2 class="tribute-heading">Timeline</h2>
+                        <ol class="timeline">
+                            <li><strong>2001:</strong> Co-founded the band My Chemical Romance.</li>
+                            <li><strong>2004:</strong> Released <em>Three Cheers for Sweet Revenge</em>.</li>
+                            <li><strong>2006:</strong> Released <em>The Black Parade</em>.</li>
+                            <li><strong>2007:</strong> Published <em>The Umbrella Academy</em>.</li>
+                        </ol>
+                              <h2>Contributions</h2>
+        <ul class="contributions">
+            <li>Lead singer and songwriter for My Chemical Romance.</li>
+            <li>Creator of <em>The Umbrella Academy</em></li>
+            <li>Writer for the comic series <em>Doom Patrol</em> under DC Comics' Young Animal imprint.</li>
+            <li>Co-creator of the Marvel character Peni Parker (Spider-Verse).</li>
+        </ul>
+                        <h2 class="tribute-heading">Discover More</h2>
+                        <div style="text-align: center; margin-top: 20px;">
+                            <a href="https://en.wikipedia.org/wiki/Gerard_Way" target="_blank" class="btn">Learn more on Wikipedia</a>
+                        </div>
+                    </div>
+                </div>
+                <div id="task4" class="task-section">
+                    <h2>Task 4: CSS Table and Form</h2>     
+                    <h3 id="main-table-heading">Student Grades</h3>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>First Name</th>
+                                <th>Subject</th>
+                                <th>Grade</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Sara</td>
+                                <td>Calculus</td>
+                                <td>C+</td>
+                            </tr>
+                            <tr class="highlight-row">
+                                <td>Damir</td>
+                                <td>ITP</td>
+                                <td>A+</td>
+                            </tr>
+                            <tr>
+                                <td rowspan="2">Aru</td>
+                                <td>WEB Tech</td>
+                                <td>B</td>
+                            </tr>
+                            <tr>
+                                <td>Discrete Math</td>
+                                <td>A</td>
+                            </tr>
+                        </tbody>
+                        <tfoot>
+                          <tr>
+                            <td colspan="2" style="text-align: right; font-weight: bold;">Class Average:</td>
+                            <td style="font-weight: bold;">B</td>
+                          </tr>
+                        </tfoot>
+                    </table>
+
+                    <h3 style="text-align: center; margin-top: 40px;">Feedback Form</h3>
+                    <div class="form-container">
+                        <form action="#" method="POST">
+                            <label for="name">Full Name:</label>
+                            <input type="text" id="name" name="name" required>
+
+                            <label for="email">Email Address:</label>
+                            <input type="email" id="email" name="email" required>
+
+                            <label for="role">Your Role:</label>
+                            <select id="role" name="role">
+                                <option value="student">Student</option>
+                                <option value="teacher">Teacher</option>
+                            </select>
+
+                            <label>Are you satisfied with your grades?</label>
+                            <div class="radio-group">
+                                <input type="radio" id="yes" name="helpful" value="yes">
+                                <label for="yes" class="radio-label">Yes</label>
+                                
+                                <input type="radio" id="no" name="helpful" value="no">
+                                <label for="no" class="radio-label">No</label>
+                            </div>
+
+                            <button type="submit" id="submit-btn">Submit</button>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="footer">
+            <p>&copy; 2026, Sara Yermaganbetova Group SE-2525. All tasks completed!</p>
+        </div>
+    </div>
+
+</body>
+</html>

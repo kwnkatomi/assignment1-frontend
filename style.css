@@ -1,0 +1,253 @@
+* { box-sizing: border-box;
+    margin: 0;
+    padding: 0; 
+  }
+
+body { font-family: Arial, sans-serif;
+       background-color: #e9ecef;
+       padding: 20px;
+     }
+
+.container { width: 85%;
+             margin: 0 auto; 
+             background-color: #ffffff; 
+             box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+           }
+
+.header { background-color: #1985A1;
+          color: white;
+          padding: 30px; 
+          text-align: center;
+          border-bottom: 4px solid #4C5C68; 
+        }
+
+.header p { margin-top: 10px; 
+            font-size: 1.1rem;
+          }
+
+.navbar { background-color: #333;
+          overflow: hidden; 
+          position: sticky;
+          top: 0; 
+          z-index: 100;
+        }
+
+.navbar a { float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 20px; 
+            text-decoration: none; 
+            font-weight: bold; 
+          }
+
+.navbar a:hover { background-color: #ddd;
+                  color: black;
+                }
+
+.sidebar { float: left;
+           width: 25%;
+           background-color: #f4f4f4;
+           padding: 20px;
+           min-height: 4150px;
+           border-right: 2px solid #ddd; 
+         }
+
+.sidebar ul { list-style-type: none; 
+              margin-top: 15px; 
+            }
+
+.sidebar ul li a { text-decoration: none;
+                   color: #0066cc; 
+                 }
+
+.sidebar ul li a:hover { text-decoration: underline; 
+                       }
+
+.content { float: right;
+           width: 75%; padding: 30px; 
+           background-color: #ffffff;
+         }
+
+.clearfix::after { content: "";
+                   clear: both;
+                   display: table; 
+                 }
+
+.footer { background-color: #333;
+          color: white; 
+          text-align: center;
+          padding: 15px; 
+          border-top: 4px solid #4C5C68; 
+          clear: both;
+        }
+
+.task-section {
+    margin-bottom: 60px;
+    padding-top: 60px; 
+    border-bottom: 2px dashed #ccc;
+    padding-bottom: 40px;
+}
+.task-section:last-child { border-bottom: none; 
+                         }
+
+#main-profile {
+  border: 1px solid #fff; 
+  border-radius: 12px;
+  padding: 24px;
+  margin-bottom: 24px; 
+  text-align: center;
+  max-width: 400px;
+  width: 100%;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+.profile-img {
+  max-width: 150px;
+  width: 100%;
+  height: auto;
+  border-radius: 50%; 
+  border: 3px solid #4C5C68;
+  margin-bottom: 12px;
+}
+
+.goal-list, .hobby-list {
+  padding-left: 20px;
+  line-height: 1.8;
+}
+
+.custom-link {
+  color: #3182ce;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.2s ease, text-decoration 0.2s ease;
+}
+
+.custom-link:hover {
+  color: #9A031E;
+  text-decoration: underline;
+}
+.task-section h2 { color: #2c3e50;
+                   font-size: 2rem; 
+                   margin-bottom: 20px;
+                   text-transform: uppercase; 
+                   border-left: 5px solid #1985A1;
+                   padding-left: 10px; 
+                 }
+
+.tribute-container { background: #fdfdfd;
+                     padding: 20px;
+                     border: 1px solid #eee;
+                     border-radius: 8px;
+                     font-family: 'Open Sans', sans-serif; }
+
+.tribute-title, .tribute-subtitle, .tribute-heading { font-family: 'Oswald', sans-serif; 
+                                                      text-align: center; 
+                                                    }
+
+.tribute-title { font-size: 3rem;
+                 color: #111; 
+                 text-transform: uppercase; 
+               }
+
+.tribute-subtitle { font-size: 1.1rem;
+                    color: #e50000; 
+                    margin-bottom: 20px;
+                  }
+
+.tribute-heading { font-size: 1.8rem;
+                   color: #111; 
+                   border-bottom: 2px solid #e50000; 
+                   margin: 30px 0 15px 0;
+                   padding-bottom: 5px;
+                 }
+
+.portrait { display: block; 
+            max-width: 100%;
+            margin: 0 auto 20px auto; 
+            border-radius: 10px; 
+            border: 3px solid #111;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2); 
+          }
+
+ol.timeline { margin-left: 30px; 
+              margin-bottom: 20px;
+              line-height: 1.8; 
+            }
+
+.btn { display: inline-block;
+       background-color: #e50000;
+       color: white; 
+       padding: 12px 25px; 
+       font-family: 'Oswald', sans-serif;
+       text-transform: uppercase;
+       border-radius: 5px; 
+       text-decoration: none; 
+       transition: 0.3s; 
+     }
+
+.btn:hover { background-color: #111;
+             color: white; 
+           }
+
+table { width: 90%;
+        margin: 0 auto;
+        border-collapse: collapse;
+      }
+
+th, td { border: 1px solid #bdc3c7;
+         padding: 12px;
+         text-align: center; 
+       }
+
+th { background-color: #1985A1; 
+     color: white; 
+   }
+
+tr:nth-child(even) { background-color: #f9f9f9; 
+                   }
+
+.highlight-row { background-color: #EEE82C !important; 
+               }
+
+.form-container { width: 80%;
+                  margin: 0 auto;
+                  background-color: #f9f9f9;
+                  padding: 30px;
+                  border-radius: 8px; 
+                  border: 1px solid #ddd; 
+                }
+
+label { display: block;
+        font-weight: bold;
+        margin: 15px 0 5px 0;
+        color: #333; 
+      }
+
+.radio-label { display: inline; 
+               font-weight: normal; 
+               margin: 0 15px 0 5px;
+             }
+
+input[type="text"], input[type="email"], select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc; 
+  border-radius: 5px;
+  box-sizing: border-box; 
+}
+
+#submit-btn { width: 100%;
+              background-color: #2ecc71; 
+              color: white;
+              padding: 12px; 
+              border: none;
+              border-radius: 5px; 
+              font-size: 16px;
+              font-weight: bold; 
+              cursor: pointer; 
+              margin-top: 20px; 
+              transition: 0.3s; 
+            }
+
+#submit-btn:hover { background-color: #27ae60; }
